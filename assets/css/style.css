@@ -5,6 +5,7 @@ a, button{
     width: 90%;
     margin-top: 5%;
     margin-bottom: 10%; 
+    border: 0ch;
 }
 
 .card-title{
@@ -15,9 +16,8 @@ a, button{
 }
 
 .card-text{
-    font-family: Cabin !important;
-    font-size: 16pt !important;
-    font-weight: 200 !important;  
+    font-family: 'Open Sans', Light !important;
+    font-size: 16pt !important; 
     text-align: left;  
 }
 
@@ -51,15 +51,38 @@ a, button{
 }
 
 .centrarfoofooter{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
     text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;   
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+
+}
+
+.btn-outline-light {
+    width: 60px;
+    color: #ffffff;
+    background-color: #660066;    
+    border: 0;
+  }
+  
+.btn-outline-light:hover {
+    color: #660066;
+    background-color: #ffffff;
+    border: 0;
 }
 
 .fondoPersonalizadoFooter {
-    background-color: #660066 !important;
-    color: #ffffff;
+    color: #660066;
+    background-color: #ffffff;
+    padding-top: 5em;    
 }
 
-.tituloRicomida{
+.tituloRMiPortafolio{
     font-family: 'Cabin' !important;
     color:  #FFFFFF;
     font-size: 37pt !important;
@@ -167,12 +190,123 @@ a, button{
   background-color: #660066;
 }
 
+.estiloLineaHRTextoUno {
+    width: 20%;
+    height: 2px;
+    border-color: #373A3C   ;
+    background-color: #373A3C;    
+}
+
+.estiloLineaHRTextoDos {
+    width: 20%;
+    height: 2px;
+    border-color: white   ;
+    background-color: white;        
+}
+
+.textoArticleLeft, .textoArticleRight {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+    font-family: 'Open Sans', Regular;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #373A3C;
+}
+
+.textoDos { 
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 7.5%;
+}
+
+.card-group {
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.card {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.card-title {
+    color: #373A3C !important;
+    font-family:  'Oswald' !important;
+    font-size: 23pt !important;    
+    font-weight: 400 !important;
+}
+
+.subTextoMiExperiencia {
+    text-align: center;
+    color: #373A3C;
+    font-family:  'Oswald', Bold;
+    font-size: 52pt;
+}
+
+.contactoEstilo {
+    text-align: center;
+    color: #373A3C !important;
+    font-family:  'Oswald', Bold !important;
+    font-size: 52pt !important;     
+}
+
+.subTextoContactoEstilo {
+    margin-top: 7.5%;
+    text-align: center;
+    font-family: 'Open Sans', Regular;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #373A3C;    
+}
+
+.btn {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'Oswald', Bold;
+    font-size: 25pt;  
+    margin-top: 2.5%;
+    margin-bottom: 17.5%;
+}
+
+.subTextoPortafolio {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'Oswald', Bold;
+    font-size: 52pt;    
+    padding-top: 5%;
+}
+
+.fab.fa-angrycreative, .fab.fa-asymmetrik {
+    color: #660066;
+}
+
+.estiloPortafolioPresentacion {
+    background-color: #660066;
+}
+
+.espaciadoPortafolioBottom {
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
 .estiloTextoTopSlider {
     font-family: Cabin, Bold !important;
     font-size: 40pt !important; 
     text-align: left; 
     margin-left: 1%;   
     margin-right: 10%;  
+}
+
+.angrycreativeText, .asymmetrikText {
+    color: #373A3C;
+    font-family:  'Oswald', SemiBold;
+    font-size: 25pt;
 }
 
 .anchoFinalImagenPrincipal {
@@ -261,9 +395,18 @@ a, button{
 }
 
 .tituloFulano {
+    color: #FFFFFF;
     font-family: 'Oswald', Bold;
-    font-size: 72pt;
+    font-size: 40pt;
     font-weight: 700;
+}
+
+.textoUno {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Open Sans', SemiBold;
+    font-size: 25pt;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
